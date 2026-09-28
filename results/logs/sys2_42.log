@@ -1,0 +1,6 @@
+[sys2/s42] data 10s
+[sys2/s42] GRAPE 0.437 random-search 0.157
+[sys2/s42] fno         herm_trace      F_tj=0.632 neg=0.0e+00 claims=0.073 delivers=0.033 gap=+0.040
+[sys2/s42] fno         cholesky        F_tj=0.497 neg=8.6e-21 claims=0.481 delivers=0.004 gap=+0.477
+[sys2/s42] fno         cholesky_gated  F_tj=0.526 neg=0.0e+00 claims=0.096 delivers=0.128 gap=-0.032
+[sys2/s42] DONE [11.8m]

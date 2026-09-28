@@ -1,0 +1,4 @@
+[cma/s13] herm_trace  CMA-ES: claims=0.059 true=0.034 gap=+0.025 (4012 evals) | Adam: claims=0.060 true=0.019 gap=+0.041
+[cma/s13] cholesky    CMA-ES: claims=0.334 true=0.006 gap=+0.328 (4012 evals) | Adam: claims=0.464 true=0.001 gap=+0.463
+[cma/s13] anchored    CMA-ES: claims=0.087 true=0.007 gap=+0.080 (4012 evals) | Adam: claims=0.085 true=0.009 gap=+0.077
+[cma/s13] DONE [4.5m]

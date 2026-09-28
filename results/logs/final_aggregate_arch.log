@@ -1,0 +1,10 @@
+10 seeds
+  tab9_architectures
+  tab10_cure
+FNO ZZ chain             n=10 gap: herm +0.019 chol +0.400 anch +0.025 (anch-chol -0.375, p=1.07e-06) | true: herm 0.066 anch 0.065 (p=0.957) | acc chol 0.473 anch 0.518
+FNO XY ring              n= 5 gap: herm +0.014 chol +0.476 anch -0.001 (anch-chol -0.477, p=0.00219) | true: herm 0.072 anch 0.096 (p=0.652) | acc chol 0.494 anch 0.536
+MLP-Mixer ZZ chain       n=10 gap: herm +0.043 chol +0.158 anch +0.075 (anch-chol -0.083, p=0.00319) | true: herm 0.011 anch 0.021 (p=0.156) | acc chol 0.501 anch 0.527
+Transformer ZZ chain     n=10 gap: herm +0.032 chol +0.044 anch +0.050 (anch-chol +0.007, p=0.6) | true: herm 0.016 anch 0.029 (p=0.158) | acc chol 0.581 anch 0.521
+fno          gap diff=+0.381 CI=[+0.302,+0.431] p=0.0000 dz=+3.64
+transformer  gap diff=+0.012 CI=[-0.010,+0.025] p=0.2205 dz=+0.42
+mixer        gap diff=+0.115 CI=[+0.084,+0.167] p=0.0004 dz=+1.74

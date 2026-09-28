@@ -1,0 +1,18 @@
+5 ensemble seeds, K=5, kappa=1.0
+herm_trace: F_ens=0.620 ind_dis=0.0073
+   single  claims=0.054 true=0.056 gap=-0.002 [-0.051,+0.041] dis_ratio=5.2
+   mean    claims=0.074 true=0.037 gap=+0.037 [+0.005,+0.066] dis_ratio=5.5
+   lcb     claims=0.065 true=0.079 gap=-0.014 [-0.043,+0.011] dis_ratio=0.2
+cholesky: F_ens=0.585 ind_dis=0.0081
+   single  claims=0.114 true=0.002 gap=+0.112 [+0.096,+0.125] dis_ratio=21.6
+   mean    claims=0.212 true=0.006 gap=+0.206 [+0.192,+0.219] dis_ratio=13.9
+   lcb     claims=0.124 true=0.008 gap=+0.116 [+0.088,+0.143] dis_ratio=0.1
+
+E1_disagree_amplified_chol     diff=+16.4027 p_t=0.0124 p_w=0.0625 dz=+1.93
+E2_lcb_vs_single_gap_herm      diff=-0.0118 p_t=0.5641 p_w=0.8125 dz=-0.28
+E3_lcb_vs_single_gap_chol      diff=+0.0038 p_t=0.8648 p_w=1.0000 dz=+0.08
+E4_lcb_vs_single_true_herm     diff=+0.0227 p_t=0.2918 p_w=0.3125 dz=+0.54
+E5_lcb_vs_single_true_chol     diff=+0.0056 p_t=0.1605 p_w=0.3125 dz=+0.77
+E6_mean_vs_single_gap_chol     diff=+0.0942 p_t=0.0035 p_w=0.0625 dz=+2.76
+E7_chol_vs_herm_gap_single     diff=+0.1136 p_t=0.0143 p_w=0.0625 dz=+1.86
+-> fig10_uncertainty, tab8_uncertainty

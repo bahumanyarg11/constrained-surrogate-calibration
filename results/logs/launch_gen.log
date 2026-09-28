@@ -1,0 +1,4 @@
+q1/launch_gen.sh: line 9: 36721 Killed: 9               python3 q1/worker_gen.py $s 6 15.0 q6 > q1/logs/gen_q6_$s.log 2>&1
+q1/launch_gen.sh: line 9: 36722 Killed: 9               python3 q1/worker_gen.py $s 6 15.0 q6 > q1/logs/gen_q6_$s.log 2>&1
+q1/launch_gen.sh: line 9: 36723 Killed: 9               python3 q1/worker_gen.py $s 6 15.0 q6 > q1/logs/gen_q6_$s.log 2>&1
+GEN COMPLETE Sun Sep 20 18:17:14 IST 2026

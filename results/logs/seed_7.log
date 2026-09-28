@@ -1,0 +1,12 @@
+[s7] data 11s
+[s7] GRAPE 0.4595 (2040 calls) | random-search 0.1522 (300 calls) [4.0m]
+[s7] unconstrained    F_tj=0.614 neg=1.7e-04 claims=0.063 delivers=0.039 err@u*=0.716 (ind 0.772)
+[s7] herm_trace       F_tj=0.619 neg=0.0e+00 claims=0.097 delivers=0.095 err@u*=0.698 (ind 0.751)
+[s7] eigh_clip        F_tj=0.388 neg=0.0e+00 claims=0.062 delivers=0.011 err@u*=0.773 (ind 0.791)
+[s7] cholesky         F_tj=0.466 neg=3.2e-21 claims=0.349 delivers=0.004 err@u*=0.755 (ind 0.768)
+[s7] linear(ridge)    F_tj=0.363 neg=2.2e+00 claims=0.190 delivers=0.016 err@u*=3.200 (ind 3.218)
+[s7] MITIG herm_trace   gap +0.002 -> -0.010 (epoch-matched control +0.010) | true 0.095 -> 0.010
+[s7] MITIG cholesky     gap +0.345 -> +0.560 (epoch-matched control +0.555) | true 0.004 -> 0.001
+[s7] WARMSTART herm_trace   init=0.061 warm@30=0.369 vs cold@30=0.428
+[s7] WARMSTART cholesky     init=0.001 warm@30=0.382 vs cold@30=0.428
+[s7] DONE [31.3 min]

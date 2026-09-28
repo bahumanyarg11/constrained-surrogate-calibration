@@ -1,0 +1,4 @@
+[ens/s42] data 12s
+[ens/s42] herm_trace   F_ens=0.621 ind_dis=0.0105 | single: claims=0.085 true=0.007 gap=+0.078 dis_ratio=9.2 | mean: claims=0.039 true=0.031 gap=+0.008 dis_ratio=2.4 | lcb: claims=0.061 true=0.056 gap=+0.005 dis_ratio=0.0
+[ens/s42] cholesky     F_ens=0.588 ind_dis=0.0077 | single: claims=0.131 true=0.001 gap=+0.130 dis_ratio=26.0 | mean: claims=0.192 true=0.008 gap=+0.184 dis_ratio=17.8 | lcb: claims=0.118 true=0.001 gap=+0.117 dis_ratio=0.0
+[ens/s42] DONE [13.6m]

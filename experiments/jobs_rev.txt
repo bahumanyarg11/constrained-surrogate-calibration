@@ -1,0 +1,50 @@
+cma 42
+cma 123
+cma 456
+cma 789
+cma 999
+cma 7
+cma 13
+cma 21
+cma 33
+cma 55
+lam 42 0.01
+lam 123 0.01
+lam 456 0.01
+lam 789 0.01
+lam 999 0.01
+lam 7 0.01
+lam 13 0.01
+lam 21 0.01
+lam 33 0.01
+lam 55 0.01
+lam 42 0.03
+lam 123 0.03
+lam 456 0.03
+lam 789 0.03
+lam 999 0.03
+lam 7 0.03
+lam 13 0.03
+lam 21 0.03
+lam 33 0.03
+lam 55 0.03
+lam 42 0.3
+lam 123 0.3
+lam 456 0.3
+lam 789 0.3
+lam 999 0.3
+lam 7 0.3
+lam 13 0.3
+lam 21 0.3
+lam 33 0.3
+lam 55 0.3
+lam 42 1.0
+lam 123 1.0
+lam 456 1.0
+lam 789 1.0
+lam 999 1.0
+lam 7 1.0
+lam 13 1.0
+lam 21 1.0
+lam 33 1.0
+lam 55 1.0

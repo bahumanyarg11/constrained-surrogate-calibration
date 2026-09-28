@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article."
+title: "Code and data for: Diagnosing and repairing miscalibration in physically constrained neural-operator surrogates for quantum control"
+authors:
+  - family-names: Bahumanya
+    given-names: R. G.
+    email: bahumanyarg@gmail.com
+    affiliation: "Department of Computer Science and Engineering – Artificial Intelligence and Machine Learning, R. V. College of Engineering, Bengaluru, India"
+  - family-names: Padaki
+    given-names: Rushikesh Anil
+    affiliation: "Department of Computer Science and Engineering – Artificial Intelligence and Machine Learning, R. V. College of Engineering, Bengaluru, India"
+repository-code: "https://github.com/bahumanyarg11/constrained-surrogate-calibration"
+license: MIT
+version: 1.0.0
+date-released: 2026-09-28
+keywords:
+  - neural operators
+  - open quantum systems
+  - quantum optimal control
+  - surrogate models
+  - calibration
+  - Lindblad dynamics
+preferred-citation:
+  type: article
+  status: submitted
+  title: "Diagnosing and repairing miscalibration in physically constrained neural-operator surrogates for quantum control"
+  authors:
+    - family-names: Bahumanya
+      given-names: R. G.
+    - family-names: Padaki
+      given-names: Rushikesh Anil
+  year: 2026

@@ -1,0 +1,20 @@
+[s123] data 11s
+[s123] GRAPE 0.4726 (2040 calls) | random-search 0.1830 (300 calls) [3.9m]
+[s123] unconstrained    F_tj=0.615 neg=2.0e-03 claims=0.066 delivers=0.017 err@u*=0.721 (ind 0.782)
+[s123] herm_trace       F_tj=0.633 neg=0.0e+00 claims=0.066 delivers=0.123 err@u*=0.696 (ind 0.761)
+[s123] eigh_clip        F_tj=0.368 neg=0.0e+00 claims=0.970 delivers=0.010 err@u*=0.750 (ind 0.774)
+[s123] cholesky         F_tj=0.487 neg=1.1e-20 claims=0.355 delivers=0.002 err@u*=0.780 (ind 0.772)
+[s123] linear(ridge)    F_tj=0.397 neg=1.8e+01 claims=0.000 delivers=0.031 err@u*=4.143 (ind 3.817)
+[s123] MITIG herm_trace   gap -0.057 -> -0.007 (epoch-matched control +0.187) | true 0.123 -> 0.007
+[s123] MITIG cholesky     gap +0.353 -> +0.333 (epoch-matched control +0.593) | true 0.002 -> 0.001
+[s123] WARMSTART herm_trace   init=0.075 warm@30=0.390 vs cold@30=0.451
+[s123] WARMSTART cholesky     init=0.001 warm@30=0.441 vs cold@30=0.451
+[s123] ABL modes= 0 F_tj=0.631 gap=+0.012
+[s123] ABL modes= 4 F_tj=0.621 gap=+0.058
+[s123] ABL modes= 8 F_tj=0.626 gap=-0.003
+[s123] ABL modes=32 F_tj=0.630 gap=+0.027
+[s123] ABL herm_trace n=30 F_tj=0.629 gap=+0.052
+[s123] ABL herm_trace n=60 F_tj=0.633 gap=+0.037
+[s123] ABL cholesky n=30 F_tj=0.443 gap=+0.313
+[s123] ABL cholesky n=60 F_tj=0.465 gap=+0.435
+[s123] DONE [38.5 min]

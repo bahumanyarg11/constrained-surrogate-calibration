@@ -1,0 +1,9 @@
+[arch/s13] data 10s
+[arch/s13] fno         herm_trace  F_tj=0.610 neg=1.6e-05 claims=0.060 delivers=0.019 gap=+0.041
+[arch/s13] fno         cholesky    F_tj=0.458 neg=0.0e+00 claims=0.464 delivers=0.001 gap=+0.463
+[arch/s13] transformer herm_trace  F_tj=0.611 neg=0.0e+00 claims=0.042 delivers=0.027 gap=+0.015
+[arch/s13] transformer cholesky    F_tj=0.572 neg=3.5e-19 claims=0.052 delivers=0.017 gap=+0.034
+[arch/s13] mixer       herm_trace  F_tj=0.547 neg=1.8e-01 claims=0.044 delivers=0.000 gap=+0.044
+[arch/s13] mixer       cholesky    F_tj=0.501 neg=1.2e-18 claims=0.170 delivers=0.002 gap=+0.169
+[arch/s13] CURE F_tj=0.476 |logmass| in-dist=0.0097 | plain: claims=0.085 true=0.009 gap=+0.077 ratio=1.8 | gated: claims=0.081 true=0.011 gap=+0.070 ratio=0.8
+[arch/s13] DONE [11.7m]

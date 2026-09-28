@@ -1,0 +1,4 @@
+[curetrunks/s123] data 16s
+[curetrunks/s123] mixer       cholesky_gated  F_tj=0.562 neg=0.0e+00 claims=0.105 delivers=0.024 gap=+0.080
+[curetrunks/s123] transformer cholesky_gated  F_tj=0.565 neg=0.0e+00 claims=0.062 delivers=0.030 gap=+0.033
+[curetrunks/s123] DONE [5.0m]

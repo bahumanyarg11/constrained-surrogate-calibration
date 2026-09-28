@@ -1,0 +1,5 @@
+[q6/s42] data 63s dim=64 n=60
+[q6/s42] GRAPE 0.2181 [14.1m]
+[q6/s42] herm_trace   F_tj=0.467 neg=4.8e-02 claims=0.014 delivers=0.002 err@u*=0.864
+[q6/s42] cholesky     F_tj=0.513 neg=0.0e+00 claims=0.013 delivers=0.014 err@u*=0.736
+[q6/s42] DONE [18.9m]

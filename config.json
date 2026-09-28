@@ -1,0 +1,156 @@
+{
+  "system": {
+    "n_qubits": 4,
+    "detunings_rad_per_us": "0.5*(1+0.1*i)",
+    "zz_coupling_rad_per_us": 0.02,
+    "control_bound_rad_per_us": 1.0,
+    "T1_us": 15.0,
+    "T2_nominal_us": 10.0,
+    "n_thermal": 0.01,
+    "dt_us": 0.05,
+    "duration_us": 5.0,
+    "second_family": {
+      "coupling": "XX+YY on a ring",
+      "J_xy_rad_per_us": 0.1
+    },
+    "dissipation_variants_T1_us": [
+      5.0,
+      50.0
+    ],
+    "six_qubit_variant": true
+  },
+  "data": {
+    "trajectories_per_seed": 120,
+    "split": [
+      90,
+      15,
+      15
+    ],
+    "initial_state": "Haar-random pure state",
+    "controls": "20 segments of 0.25 us, amplitude tanh(z), z~N(0,1), three-point moving average over segments"
+  },
+  "surrogate": {
+    "trunks": [
+      "fno",
+      "transformer",
+      "mixer"
+    ],
+    "width": 64,
+    "depth": 4,
+    "fno_modes": 16,
+    "heads": [
+      "unconstrained",
+      "herm_trace",
+      "eigh_clip",
+      "cholesky",
+      "cholesky_gated (anchored)"
+    ],
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "batch": 8,
+    "epochs": 120,
+    "schedule": "cosine",
+    "grad_clip": 1.0,
+    "trace_penalty": 0.1,
+    "anchoring_lambda": 0.1,
+    "lambda_sweep": [
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ]
+  },
+  "control": {
+    "task": "|0000> -> |1111>",
+    "segments": 20,
+    "adam_steps": 300,
+    "adam_lr": 0.03,
+    "init": "0.05*N(0,1), rng seed 7",
+    "cma_es": {
+      "evaluations": 4000,
+      "sigma0": 0.3,
+      "package": "pycma 4.5.0"
+    },
+    "grape": {
+      "segments": 8,
+      "iterations": 60,
+      "finite_difference_step": 0.002
+    },
+    "random_search_draws": 300
+  },
+  "calibration_diagnostic": {
+    "path_points": 11,
+    "definition": "mean |F_claim - F_true| along u(a)=(1-a) u_ind + a u*"
+  },
+  "seeds": {
+    "main_study": [
+      42,
+      123,
+      456,
+      789,
+      999,
+      7,
+      13,
+      21,
+      33,
+      55
+    ],
+    "ablations_full_mode": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "generalisation": [
+      42,
+      123,
+      456
+    ],
+    "ensembles": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "architectures_remedy": [
+      42,
+      123,
+      456,
+      789,
+      999,
+      7,
+      13,
+      21,
+      33,
+      55
+    ],
+    "xy_ring": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "cma_es_and_lambda": [
+      42,
+      123,
+      456,
+      789,
+      999,
+      7,
+      13,
+      21,
+      33,
+      55
+    ]
+  },
+  "statistics": {
+    "planned_comparisons": 10,
+    "correction": "Holm-Bonferroni",
+    "bootstrap": "BCa, B=10000"
+  }
+}

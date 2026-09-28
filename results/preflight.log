@@ -1,0 +1,3 @@
+CTRL_MAX=0.5: GRAPE ceiling(40it) fid=0.2616  [80s]
+CTRL_MAX=1.0: GRAPE ceiling(40it) fid=0.4362  [80s]
+CTRL_MAX=2.0: GRAPE ceiling(40it) fid=0.4861  [81s]

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+# trained weights: download from the GitHub release or regenerate with scripts/run_all.sh
+checkpoints/

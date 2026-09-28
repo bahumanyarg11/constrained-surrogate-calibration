@@ -1,0 +1,5 @@
+[g_weak/s123] data 644s dim=16 n=120
+[g_weak/s123] GRAPE 0.5347 [24.0m]
+[g_weak/s123] herm_trace   F_tj=0.603 neg=0.0e+00 claims=0.077 delivers=0.089 err@u*=0.663
+[g_weak/s123] cholesky     F_tj=0.467 neg=1.2e-19 claims=0.392 delivers=0.025 err@u*=0.771
+[g_weak/s123] DONE [37.0m]

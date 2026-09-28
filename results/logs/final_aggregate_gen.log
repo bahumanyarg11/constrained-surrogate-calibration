@@ -1,0 +1,14 @@
+configs: ['g_strong', 'base', 'g_weak', 'xy', 'q6', 'q6m']
+g_strong  herm_trace   gap=+0.012 claims=0.051 delivers=0.039 err=0.554
+g_strong  cholesky     gap=+0.378 claims=0.378 delivers=0.001 err=0.626
+base      herm_trace   gap=+0.019 claims=0.086 delivers=0.066 err=0.741
+base      cholesky     gap=+0.400 claims=0.404 delivers=0.004 err=0.768
+g_weak    herm_trace   gap=-0.024 claims=0.089 delivers=0.112 err=0.688
+g_weak    cholesky     gap=+0.440 claims=0.453 delivers=0.013 err=0.776
+xy        herm_trace   gap=+0.014 claims=0.086 delivers=0.072 err=0.716
+xy        cholesky     gap=+0.476 claims=0.484 delivers=0.008 err=0.800
+q6        herm_trace   gap=+0.012 claims=0.021 delivers=0.009 err=0.918
+q6        cholesky     gap=+0.001 claims=0.013 delivers=0.012 err=0.747
+q6m       herm_trace   gap=+0.016 claims=0.017 delivers=0.001 err=0.828
+q6m       cholesky     gap=+0.011 claims=0.017 delivers=0.005 err=0.769
+-> fig9_generalisation, tab7_generalisation
